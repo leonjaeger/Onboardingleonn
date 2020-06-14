@@ -1,27 +1,3 @@
-# Onboardingleonn
-
-### Instalacion y ejecucion
-
-Dentro de un proyecto de React Native
-
-Instalar la libreria
-
-```
-npm i Onboardingleonn
-```
-
-
-Ejecutar el proyecto
-
-```
-cd [proyecto]
-expo start
-```
-
-
-## Forma de uso
-
-```
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Onboarding from'onboardingleonn/src'
@@ -80,47 +56,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-```
-## Vista previa
-![View1](./assets/s1.jpeg) 
-
-
-![View2](./assets/s2.jpeg) 
-
-
-![View3](./assets/s3.jpeg) 
-
-
-# Documentacion
-
-## Funciones
-
-| Nombre | Descripcion | Tipo |
-| :---:          |     :---:      |         :---:  |
-| onPressSkip   | Funcion final (navigate To)     | Func    |
-
-
-
-## Informacion de variables
-
-| Nombre | Descripcion | Tipo |
-| :---:          |     :---:      |         :---:  |
-| titulo   |  Describir titulo     | string    |
-| Descripcion   | Texto Secundario     | string    |
-| Img   | Imagen a mostrar     | string    |
-| colorFondo   | Color de fondo     | string    |
-| textBotonPrev   | Texto del boton izquierdo   | string    |
-| textBotonNext   | Texto del boton derecho   | string    |
-| colortexto   | Color de texto y del boton derecho   | string    |
-
-
-## Version
-
-0.0.5
-
-## Autor
-
-* **Glenn Julian Castro Duarte** - [Leonjaeger](https://github.com/leonjaeger)
-
-
-
